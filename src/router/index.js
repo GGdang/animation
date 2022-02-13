@@ -10,14 +10,9 @@ const routes = [{
     component: Home
   },
   {
-    path: '/svg1',
-    name: 'svg1',
-    component: () => import( /* webpackChunkName: "about" */ '../views/svg1.vue')
-  },
-  {
-    path: '/gsap3',
+    path: '/gsap3-1',
     name: 'gsap3',
-    component: () => import( /* webpackChunkName: "gsap3" */ '../views/gsap3.vue')
+    component: () => import( /* webpackChunkName: "gsap3" */ '../views/gsap3-1.vue')
   },
   {
     path: '/three',
