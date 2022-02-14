@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/gsap3-1">gsap3-1</router-link> |
+      <router-link to="/gsap3-2">gsap3-2</router-link> |
       <router-link to="/three">three</router-link>
     </div>
     <router-view />
