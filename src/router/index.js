@@ -11,8 +11,13 @@ const routes = [{
   },
   {
     path: '/gsap3-1',
-    name: 'gsap3',
+    name: 'gsap3-1',
     component: () => import( /* webpackChunkName: "gsap3" */ '../views/gsap3-1.vue')
+  },
+  {
+    path: '/gsap3-2',
+    name: 'gsap3-2',
+    component: () => import( /* webpackChunkName: "gsap3" */ '../views/gsap3-2.vue')
   },
   {
     path: '/three',
